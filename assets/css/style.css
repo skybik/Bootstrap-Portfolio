@@ -1,0 +1,37 @@
+/* Header */
+.header {
+background-color: #fff;
+border-bottom: 2px solid #ccc;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0;
+    height: 80px;
+}
+
+.navbar-brand {
+    background-color: #b5b5b5;
+    padding: 25px 25px;
+    color: #fff;
+}
+
+/* Link bars */
+.nav-link + .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -7px;
+    height: 14px;
+    border-left: 1px solid #ccc;
+}
+
+.nav-link {
+    position: relative;
+    color: #b5b5b5;
+}
+
+h2 {
+    margin-left: 25px;
+}
