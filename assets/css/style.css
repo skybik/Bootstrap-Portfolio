@@ -70,11 +70,3 @@ h1:after {
     margin-top: 15px;
     border: 1px solid gold;
 }
-
-.myClass {
-    font-size: 10px;
-}
-
-#myID {
-    font-size: 20px;
-}
