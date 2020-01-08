@@ -1,38 +1,76 @@
-#portfolio-grid {
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 2px solid #cccccc;
 }
-#about {
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff !important;
+    padding: 0 15px;
+    line-height: 60px;
 }
-#ava { 
+.navbar-toggler {  
 }
-.social a {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #f8f9fa;
+ul li {
+    padding: 0 7px; 
     position: relative;
-    text-align: center;
-    color: #0d1e2d;
 }
-/* #linkedin {
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    border-radius: 50%;
-} */
-/* .nav-link + .nav-link:after {
+ul li:not(:last-child)::after {
     content: "";
+    border: 1px solid #e2e2e2;
+    border-width: 1px 1px 0 0;
     position: absolute;
-    left: 0;
-    top: 50%;
-    margin-top: -7px;
-    height: 14px;
-    border-left: 1px solid #ccc;
-} */
-/* h1:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: #eee;
-} */
+    right: -3px;
+    top: 12px;
+    height: 16px;
+}
+body {
+    background-image: url(../images/so-white.png);
+    height: 100%;
+}
+#main {
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 30px;
+    margin-bottom: 180px;
+}
+h3 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+#avatar {
+}
+.page-footer {
+    border-top: 6px solid #4aaaa5;
+    background-color: #666666;
+    color: #ffffff;
+}
+#button {
+    background-color: #4aaaa5 !important;
+    border-color: #4aaaa5 !important;
+    border: none;
+    outline: none;
+    width: 100px;
+}
+#button:hover{
+    opacity: 0.7;
+}
+.row,
+.row > .col {
+  padding: 5px 8px;
+}
+.item {
+    height: 180px;
+    position: relative;
+}
+.item h4 {
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 250px;
+    padding: 10px 0px;
+    bottom: 10px;
+}
