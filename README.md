@@ -1,2 +1,1 @@
 # Bootstrap-Portfolio
-Responsiveness Assignment
